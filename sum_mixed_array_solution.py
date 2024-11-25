@@ -5,6 +5,6 @@
 mixed_array = ['5', '0', 9, 3, 2, 1, '9', 6, 7]
 
 def sum_mix(arr):
-    print(arr)
-    
+    for i in range(len(arr)):
+        print(arr[i])
 sum_mix(mixed_array)
